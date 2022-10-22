@@ -12,4 +12,4 @@ ellink=$(echo "https://player.twitch.tv/?enableExtensions=true&muted=false&paren
 #cat ./linkdetwitch.txt
 echo "$ellink$numero" 
 sleep 20
-export DISPLAY=:0.0 && xdotool mousemove 226 68 click 1 ; sleep 3; chromium-browser $ellink$numero
+export DISPLAY=:0.0 && chromium-browser $ellink$numero
